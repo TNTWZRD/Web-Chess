@@ -9,7 +9,7 @@ Web Chess
 </title>
 </head>
 
-<body>
+<body style="background-color: black;">
 
 <table style="text-align: center; color: red; margin-left: auto; margin-right: auto;">
 	<tr>
@@ -136,10 +136,15 @@ Web Chess
 
 <!-- Load Scripts -->
 	<script type="text/javascript" src="Boards/board.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 	<script type="text/javascript" src="Boards/pieces.js"></script>
 	<script type="text/javascript" src="Pieces/pawn.js"></script>
+	<script type="text/javascript" src="Pieces/rook.js"></script>
+	<script type="text/javascript" src="Pieces/bishop.js"></script>
+	<script type="text/javascript" src="Pieces/knight.js"></script>
+	<script type="text/javascript" src="Pieces/king.js"></script>
+	<script type="text/javascript" src="Pieces/queen.js"></script>
 	<script type="text/javascript" src="Testfors/testfordiagonal.js"></script>
-	<script type="text/javascript" src="main.js"></script>
 <!-- End Load Scripts -->
 </body>
 </html>
